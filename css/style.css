@@ -9,6 +9,7 @@
 
 a {
   text-decoration: none;
+  color: #000;
 }
 ul {
   list-style: none;
@@ -58,4 +59,56 @@ nav span {
 
 #login:hover {
   background-color: #3465b9;
+}
+
+/* main */
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.main-wrap {
+  padding-top: 100px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.serch_bar {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+}
+input {
+  background-color: #fff;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.28);
+  width: 561px;
+  height: 44px;
+
+}
+.serch_bar img {
+  width: 26px;
+}
+.plus ul {
+  margin: 20px 20px;
+  color: #000;
+}
+.plus ul li {
+  margin: 20px;
+  float: left;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  background-color: rgba(225, 227, 225, 1);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  padding: 10px 5px;
+}
+.plus li img {
+  width: 26px;
+  height: 26px;
 }
